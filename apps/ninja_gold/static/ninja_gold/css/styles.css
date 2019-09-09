@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h4, label {
+    display: inline-block;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    width: 90%;
+    padding: 2.5%;
+    border: 2px solid blue;
+    text-align: center;
+    margin: 0px auto;
+}
+.game-block {
+    /* position: relative; */
+    text-align: center;
+    width: 20%;
+    border: 2px solid red;
+    min-height: 150px;
+    display:  inline-block;
+    margin: 0px 30px;
+}
+
+.activity {
+    margin: 0px 30px;
+    min-height: 150px;
+    border: 2px solid red;
+    overflow: auto;
+}
